@@ -4,6 +4,12 @@ export const addTodo=(data)=>{
         payload:data
     }
 }
+export const searchFilterChange=(text)=>{
+    return{
+        type:'filters/searchFilterChange',
+        payload:text
+    }
+}
 
 
 
